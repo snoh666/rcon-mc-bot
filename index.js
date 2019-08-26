@@ -61,7 +61,7 @@ const sayInfo = () => {
     setTimeout(() => {
       conn.send(convertTextToTellRaw('Server bot is starting..'));
       setInterval(() => {
-        let pick = Math.floor(Math.random() * 4);
+        let pick = Math.floor(Math.random() * botMessages.length);
 
         conn.send(pick !== 1 ? convertTextToTellRaw(botMessages[pick]) : 'list');
       }, 150000)
