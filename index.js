@@ -34,7 +34,7 @@ const botMessages = [`Zapraszamy na strone serwera! *Pojawi sie w niedalekiej pr
   'list',
   "Zakaz griefowania, trollowania oraz oszukiwania!",
   "Discord",
-  "Prosze o wpaly na amortyzator dla @czestozmieniamnicki",
+  "Prosze o wplaty na amortyzator dla @czestozmieniamnicki",
   "Prosze o zaplate za serwer i wejsciowke do snoh666 (2,5 zł)"];
 
 
