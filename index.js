@@ -33,7 +33,9 @@ const convertTextToTellRaw = (text) => {
 const botMessages = [`Zapraszamy na strone serwera! *Pojawi sie w niedalekiej przyszlosci`,
   'list',
   "Zakaz griefowania, trollowania oraz oszukiwania!",
-  "Discord"];
+  "Discord",
+  "Prosze o wpaly na amortyzator dla @czestozmieniamnicki",
+  "Prosze o zaplate za serwer i wejsciowke do snoh666 (2,5 zł)"];
 
 
 const options = {
