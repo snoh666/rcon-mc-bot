@@ -56,6 +56,10 @@ const sayInfo = () => {
         let players = value.split(':')[1];
         conn.send(convertTextToTellRaw(`Gracze online: ${players.split(',').length}`));
       }
+    })
+    .on('end', () => {
+      console.log('End');
+      process.exit()
     });
 
   conn.connect();
