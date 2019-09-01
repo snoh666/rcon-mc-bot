@@ -33,6 +33,7 @@ const convertTextToTellRaw = (text) => {
         value: "https://snoh666.github.io/react-mc-user-panel/#/"
       }
     }
+    textSetup[1] = Object.assign(textSetup[1], hyperlink);
   }
   console.log(JSON.stringify(textSetup));
   return `tellraw @a [${JSON.stringify(textSetup)}]`;
