@@ -25,12 +25,21 @@ const convertTextToTellRaw = (text) => {
     };
     textSetup[1] = Object.assign(textSetup[1], hyperlink);
   }
+  if (text === 'Zapraszamy na strone serwera!') {
+    const hyperlink = {
+      underlined: true,
+      clickEvent: {
+        action: "open_url",
+        value: "https://snoh666.github.io/react-mc-user-panel/#/"
+      }
+    }
+  }
   console.log(JSON.stringify(textSetup));
   return `tellraw @a [${JSON.stringify(textSetup)}]`;
 };
 
 
-const botMessages = [`Zapraszamy na strone serwera! *Pojawi sie w niedalekiej przyszlosci`,
+const botMessages = [`Zapraszamy na strone serwera!`,
   'list',
   "Zakaz griefowania, trollowania oraz oszukiwania!",
   "Discord",
