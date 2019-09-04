@@ -25,7 +25,7 @@ const convertTextToTellRaw = (text) => {
     };
     textSetup[1] = Object.assign(textSetup[1], hyperlink);
   }
-  if (text === 'Zapraszamy na strone serwera!') {
+  if (text === 'Zapraszamy do uzywania panelu gracza!') {
     const hyperlink = {
       underlined: true,
       clickEvent: {
@@ -40,7 +40,7 @@ const convertTextToTellRaw = (text) => {
 };
 
 
-const botMessages = [`Zapraszamy na strone serwera!`,
+const botMessages = [`Zapraszamy do uzywania panelu gracza!`,
   'list',
   "Zakaz uzywania bugów serwera / minecrafta!",
   "Discord",
